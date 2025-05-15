@@ -15,7 +15,7 @@ C:/FinalProject_am/finalprojectrepo/FinalProject_AM
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61629
+61955
 Successfully changed project path to: C:/FinalProject_am/finalprojectrepo/FinalProject_AM
 C:/FinalProject_am/finalprojectrepo/FinalProject_AM
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ C:/FinalProject_am/finalprojectrepo/FinalProject_AM
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [40568]  Target information:
+Player connection [12548]  Target information:
 
-Player connection [40568]  * "[IP] 172.16.35.249 [Port] 0 [Flags] 2 [Guid] 1812206473 [EditorId] 1812206473 [Version] 1048832 [Id] WindowsEditor(7,APEACH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12548]  * "[IP] 172.16.35.249 [Port] 0 [Flags] 2 [Guid] 3476956569 [EditorId] 3476956569 [Version] 1048832 [Id] WindowsEditor(7,APEACH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [40568] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [40568] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12548] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12548] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-Refreshing native plugins compatible for Editor in 7.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.59f1 (630718f645a5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Resources/UnitySubsystems
@@ -73,44 +73,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003599 seconds.
-- Loaded All Assemblies, in  0.205 seconds
+Registered in 0.003274 seconds.
+- Loaded All Assemblies, in  0.206 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.157 seconds
-Domain Reload Profiling: 362ms
-	BeginReloadAssembly (62ms)
+- Finished resetting the current domain, in  0.162 seconds
+Domain Reload Profiling: 368ms
+	BeginReloadAssembly (61ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (82ms)
-		LoadAssemblies (61ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (60ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (81ms)
-			TypeCache.Refresh (80ms)
-				TypeCache.ScanAssembly (72ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (73ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (158ms)
+	FinalizeReload (162ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (130ms)
+		SetupLoadedEditorAssemblies (133ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,50 +119,50 @@ Domain Reload Profiling: 362ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.382 seconds
+- Loaded All Assemblies, in  0.403 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.379 seconds
-Domain Reload Profiling: 760ms
-	BeginReloadAssembly (81ms)
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 784ms
+	BeginReloadAssembly (82ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (12ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (250ms)
-		LoadAssemblies (186ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (199ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (111ms)
 			TypeCache.Refresh (92ms)
-				TypeCache.ScanAssembly (82ms)
+				TypeCache.ScanAssembly (83ms)
 			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (379ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (383ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (291ms)
+		SetupLoadedEditorAssemblies (295ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadAttributes (199ms)
 			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4886 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (348.4 KB). Loaded Objects now: 5367.
-Memory consumption went from 201.3 MB to 200.9 MB.
-Total: 2.492900 ms (FindLiveObjects: 0.203600 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.074100 ms  DeleteObjects: 0.145300 ms)
+Unloading 4889 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.5 KB). Loaded Objects now: 5371.
+Memory consumption went from 204.1 MB to 203.7 MB.
+Total: 4.176400 ms (FindLiveObjects: 0.251300 ms CreateObjectMapping: 0.104800 ms MarkObjects: 3.674800 ms  DeleteObjects: 0.144700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,37 +180,236 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 206719.424575 seconds.
-  path: Assets/Idyllic Fantasy Nature/Animations
-  artifactKey: Guid(563db78405bddca4688ac30ca1fb6cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Idyllic Fantasy Nature/Animations using Guid(563db78405bddca4688ac30ca1fb6cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'fae1cc90895c43bd1dae3680c818cb04') in 0.001972 seconds
+  Time since last request: 207270.857908 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_01.prefab
+  artifactKey: Guid(fd5ab67aa510888499f842d51f660a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_01.prefab using Guid(fd5ab67aa510888499f842d51f660a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '561cc4ce6c64e17cb4952bb54b6f0273') in 1.467188 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 49
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Idyllic Fantasy Nature/Demo
-  artifactKey: Guid(8e9846ebf704d9d4a80d870f50dbbcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Idyllic Fantasy Nature/Demo using Guid(8e9846ebf704d9d4a80d870f50dbbcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'b4e56cabea0a169615ef1106add1ffb8') in 0.000366 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Bush_03_02.prefab
+  artifactKey: Guid(c255a97f0f00f934fade030c353aff54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Bush_03_02.prefab using Guid(c255a97f0f00f934fade030c353aff54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0e28395325016d0ebf7fb66207ba3893') in 0.170757 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 33
 ========================================================================
 Received Import Request.
-  Time since last request: 9.636407 seconds.
-  path: Assets/Idyllic Fantasy Nature/Demo/Demo.unity
-  artifactKey: Guid(00ad17d337a65f940adcf6e7def9f43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Idyllic Fantasy Nature/Demo/Demo.unity using Guid(00ad17d337a65f940adcf6e7def9f43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '29d62056a9b78b585cd66c83f8eda30e') in 0.001502 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Bush_03_01.prefab
+  artifactKey: Guid(18665362feb1b494fbeda66c24a91d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Bush_03_01.prefab using Guid(18665362feb1b494fbeda66c24a91d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6b90f79fe58ef936bffac4429b18ba48') in 0.020815 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 33
 ========================================================================
 Received Import Request.
-  Time since last request: 4.503575 seconds.
-  path: Assets/Idyllic Fantasy Nature/Demo/Terrain Models
-  artifactKey: Guid(8805be5c8ac995345ba48040edddbca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Idyllic Fantasy Nature/Demo/Terrain Models using Guid(8805be5c8ac995345ba48040edddbca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'ac4a538c0593fa9dff9c92eeb1737cdc') in 0.000552 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_03.prefab
+  artifactKey: Guid(e36665c8ece995449841ccc2d4be5a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_03.prefab using Guid(e36665c8ece995449841ccc2d4be5a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3376e90671047d77e740d23858a8a646') in 0.023596 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Bush_01_02.prefab
+  artifactKey: Guid(0822ffcc2f3109548b8fabb01f0f2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Bush_01_02.prefab using Guid(0822ffcc2f3109548b8fabb01f0f2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a484d0a1d212cc6e139d4239f965e2c2') in 0.021351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Fir_04.prefab
+  artifactKey: Guid(9ee7cbf1161c07f43b5e74f14c2cd00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Fir_04.prefab using Guid(9ee7cbf1161c07f43b5e74f14c2cd00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ec481d6f2595ec3ca9ff593e72ac7c0b') in 0.020046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Cattail_01.prefab
+  artifactKey: Guid(4690936875b5bea46ba0689fdd3bedac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Cattail_01.prefab using Guid(4690936875b5bea46ba0689fdd3bedac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b24bf71a209497d0073f1a08ad8d6e16') in 0.545598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Cliff_03.prefab
+  artifactKey: Guid(ca00d4d4c0d329e4599915fdd324475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Cliff_03.prefab using Guid(ca00d4d4c0d329e4599915fdd324475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6d164ec81bdd96d728e64640a125dd6b') in 0.680712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/FloatingLeafs_Yellow.prefab
+  artifactKey: Guid(fd9ace03197b9794ea6fd5e418bbbd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/FloatingLeafs_Yellow.prefab using Guid(fd9ace03197b9794ea6fd5e418bbbd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e38928be07fa9d89668adcd1531622cb') in 0.022121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Bush_02_02.prefab
+  artifactKey: Guid(8022ebd68cb5b6948be983bf7aa7b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Bush_02_02.prefab using Guid(8022ebd68cb5b6948be983bf7aa7b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4473c0953cb336353bbc41cc78d2773d') in 0.025491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Branch_01.prefab
+  artifactKey: Guid(63f88b8ea8bdf544dadd60344ab2fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Branch_01.prefab using Guid(63f88b8ea8bdf544dadd60344ab2fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a76315741809aeb443c7d1a38a30491e') in 0.023712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_04_Green.prefab
+  artifactKey: Guid(cd70cd855f71078438d51c2883795a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_04_Green.prefab using Guid(cd70cd855f71078438d51c2883795a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2ed86d5e189f9989ced0c4176eef147d') in 0.025475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Flower_Blue_01.prefab
+  artifactKey: Guid(eae282ced33b74140b668fb902af6d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Flower_Blue_01.prefab using Guid(eae282ced33b74140b668fb902af6d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dd2a347f5d67968faf10859ec6210e9e') in 0.021565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_02_Green.prefab
+  artifactKey: Guid(5d6ff116fb5dd6343a053c078b5cdc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_02_Green.prefab using Guid(5d6ff116fb5dd6343a053c078b5cdc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dfaf5331fd0fde397a17f663aae0d056') in 0.029754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Cattail_03.prefab
+  artifactKey: Guid(cfca041a54545344e87ea3399b512d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Cattail_03.prefab using Guid(cfca041a54545344e87ea3399b512d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '92a8304a14748279960452599c2e516b') in 0.022970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Flower_Purple.prefab
+  artifactKey: Guid(be88ccc41855af94c9a8e89f1658ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Flower_Purple.prefab using Guid(be88ccc41855af94c9a8e89f1658ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e36e0245248995907517e178d2a6f381') in 0.024314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_04.prefab
+  artifactKey: Guid(43eebddd43cc8914a93363658ce6cdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_04.prefab using Guid(43eebddd43cc8914a93363658ce6cdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7f12f3b57d87f871e02c74da1e1b52e0') in 0.033625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_01_Green.prefab
+  artifactKey: Guid(743b50117cc380a4f8f6871e04789159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_01_Green.prefab using Guid(743b50117cc380a4f8f6871e04789159) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2ac8751ad24698d0e70935f08285ba9c') in 0.028383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_01_Purple.prefab
+  artifactKey: Guid(81983288ce208254aad9833574feb791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_01_Purple.prefab using Guid(81983288ce208254aad9833574feb791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2799f64935ef7e8fad6528e0e5e73324') in 0.029029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/FloatingLeafs_Green.prefab
+  artifactKey: Guid(18e3666b574550346837dac9842e481e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/FloatingLeafs_Green.prefab using Guid(18e3666b574550346837dac9842e481e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '177c130ceb879adcdf256dba045c8400') in 0.024443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_05_Blue.prefab
+  artifactKey: Guid(3f7c615c00f14b5409bd59db984c3359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_05_Blue.prefab using Guid(3f7c615c00f14b5409bd59db984c3359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7d7b73cdf50cfdc996001d0b39bf55c0') in 0.029710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_05.prefab
+  artifactKey: Guid(ad56e8c887f41c44eb5f929e3bb131a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_05.prefab using Guid(ad56e8c887f41c44eb5f929e3bb131a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '89076eee6479ec5520cbce5dc009c9ef') in 0.033732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/ButterflySpawnArea.prefab
+  artifactKey: Guid(a379fd3487a26444dbdc8de46d7bd572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/ButterflySpawnArea.prefab using Guid(a379fd3487a26444dbdc8de46d7bd572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '65f1cd31f196ddb2bd985ef37503285f') in 1.098836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
